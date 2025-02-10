@@ -1,3 +1,3 @@
 # Multimedia-Programming
 
-# CISC.3610 Portfolio
+# CISC.3610 Portfolio (Peter.J)
