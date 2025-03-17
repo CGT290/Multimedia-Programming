@@ -1,7 +1,43 @@
+body, html{
+    height: 100%;
+}
+#background_image{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center; /* placing the form container in the center */
+    background-image: url("assets/pexels-alex-dos-santos-305643819-30958705.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 h1{
     color:blue;
+    text-align: center;
+    font-size: 30px;
+    
 }
 form{
-    text-align: center;
-   
+    position : absolute;
+    margin: 25px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+
+.btn{
+    color: black;
+    background-color: green;
+    border-radius: 10px 15px;
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 1;
 }
