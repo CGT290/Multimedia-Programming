@@ -8,33 +8,30 @@
     <script src = "style.css"></script>
     
     <link rel="stylesheet" href="style.css">
-
-   
-
 </head>
 <body>
     <div id = "background_image">
         <form >
-        <h1>KG to Pounds</h1>
+        <h1>BMI && (KG TO LB) CALCULATOR</h1>
         
-
         <label for = "name"><b>Name:</b></label>
-        <input type = "text" placeholder="Enter your name" name = "name"  pattern = "^[A-Za-z]+$" title="Accepts letters only" required>
+        <input type = "text" id = "UsersName" placeholder="Enter your name" name = "name"  pattern = "^[A-Za-z]+$" title="Accepts letters only" required>
         <br> <br>
 
-        <label for = "weight"><b>Weight:</b></label>
-        <input type = "number"  id = "num" placeholder= "Enter weight in KG" min = "1" max = "999" name = "weight" title= "Input must be positive and max amount of digits allowed is 3" required>
+        <label for = "height"><b>Height (cm): </b></label>
+        <input type = "number" id= "UserHeight" placeholder="Enter height in cm" min = 1 max = 300> 
+        <br><br>
+
+        <label for = "weight"><b>Weight (kg):</b></label>
+        <input type = "number"  id = "UserWeight" placeholder= "Enter weight in KG" min = "1" max = "999" name = "weight" title= "Input must be positive and max amount of digits allowed is 3" required>
         <br> <br>
-     
 
-        <Button type = "submit" class = "btn">Submit</Button>
-
-        <p id = "results"></p>
- 
-        
-        </form>
+        <Button type = "button" class = "btn" onclick="calculatingResults()">Submit</Button>
+        <p id = "Results"> Result (LBS):  </p>
+        <p id = "BMI"> BMIresults: </p>
+       </form>
     </div>
 
-<script sr = "script.js"></script>
+<script src = "script.js"></script>
 </body>
 </html>

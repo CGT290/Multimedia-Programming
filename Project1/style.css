@@ -14,7 +14,7 @@ body, html{
 }
 
 h1{
-    color:blue;
+    color:Green;
     text-align: center;
     font-size: 30px;
     
@@ -23,7 +23,7 @@ form{
     position : absolute;
     margin: 25px;
     padding: 16px;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 10px;
     width: 50%;
     height: 50%;
