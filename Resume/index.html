@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang = "en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+   <title>Bruce Banner Resume</title>
+
+   <style>
+    #Name{
+        color: lightgreen;
+    }
+    
+    .nav-link{
+        color: lightgoldenrodyellow;
+    }
+    
+    .nav-link:hover{ /*applies hover effect to the nav sections */
+        color: red;
+    }
+       
+
+    .content-section{ 
+        display: none; 
+    }
+    .active-section{
+        display: block;
+    }
+
+
+    
+
+   </style>
+
+   <script>
+
+    function showSection(sectionId){
+        let sections = document.querySelectorAll('.content-section');
+
+        //to hide all sections and their info
+        sections.forEach(section => section.classList.remove('active-section'));
+
+    //to show only the sections selected
+    document.getElementById(sectionId).classList.add('active-section')
+    } 
+    
+    window.onload = function () { //To make summary page the default page whenever site reloads, without this it would reload to blank page
+        let prevSection = localStorage.getItem('activeSection');
+
+        if(!prevSection)
+        prevSection = "summary";
+
+        showSection(prevSection);
+    }
+   </script>
+
+   <!--Needed this so that the carousel 3 seconds interval to work, and other bootstrap properties to apply-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- got from https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg dark bg-dark">
+        <a class="navbar-brand" href="#" id = "Name">Bruce Banner</a>  <!--Product name: in this case Bruce Banner Resume-->
+        <button class="navbar-toggler" type = "button" data-toggle ="collapse" data-target = "#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navSections">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+       <a class="nav-link" href="#" onclick="showSection('summary')">Summary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showSection('education')">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showSection('experience')">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showSection('skills')">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="showSection('portfolio')">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <br><br>
+    <section id="summary" class="content-section">
+    <h2>Summary</h2>
+    <p>I'm a brilliant nuclear physicist and biochemist with expertise in gamma radiation, cellular biology, and artificial 
+        intelligence. During one of my experiments, I accidentally turned myself into a raging green monster. Perhaps I 
+        shouldn't call him a monster—he's a complex individual who doesn't aimlessly look for trouble. In fact, it's quite 
+        the opposite; he tries to evade any form of interaction with others. Although the Hulk is growing on me, I still want 
+        my body back and my thoughts to be mine only, but the journey to accomplish such a goal seems impossible.
+    </p>
+</section>
+
+<section id="education" class="content-section">
+    <h2>Education</h2>
+    <ul>
+     <li><b>Studied nuclear physics as an undergraduate</b>  WHERE: <b>Desert State University (Navapo, New Mexico)</b></li>
+     <li><b>Specialized in gamma radiation research</b>  WHERE: <b>Pennsylvania State University</b></li>
+    <li><b>Ph.D. in Gamma Radiation Studies</b>  Focused on experimental applications of gamma energy.</li>
+</ul>
+</section>
+
+<section id="experience" class="content-section">
+    <h2>Experience</h2>
+    <ul>
+     <li><b>Worked on advanced radiation studies</b>  WITH: <b>Worked with Walter Langkowski & Peter Corbeau</b></li>
+     <li> <b>Apart of The Avengers, As both bruce banner(scientist) and hulk(combat expert) </b></li>
+    </ul>
+</section>
+
+<section id="skills" class="content-section">
+    <h2>Skills</h2>
+    <li> <b>As Bruce: Expert in gamma radiation </b></li>
+    <li> <b>As Bruce: Expert in artificial intelligence </b></li>
+    <li> <b>As Bruce: Expert in cellular biology </b></li>
+    <li> <b>As Hulk:  Expert in combat </b></li>
+    <li> <b>As Hulk:  Very Strong </b></li>
+    <li> <b>As Hulk:  Can jump very high, Technically Flying </b></li>
+    <li> <b>As Hulk:  Cooking</b></li>
+    <li> <b>As Both:  Perform well in groups but rather work alone </b></li>
+</section>
+
+<section id="portfolio" class="content-section">
+    <h2>Portfolio</h2>
+    <p>Showcasing Bruce Banner/Hulk activities and projects.</p>
+
+    <div id="carouselwithIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselwithIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselwithIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselwithIndicators" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="angry-hulk-8122726_1280.png" alt="Chef hulk cooking greens">
+                <div class="carousel-caption">
+                    <h5>Bon appetit</h5>
+                    <p>Welcome to cooking with hulk.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="wp9656230-bruce-banner-with-tonyStark.jpg" alt="Bruce banner, in the lab with Mr.Starks">
+                <div class="carousel-caption">
+                    <h5>Research</h5>
+                    <p>Research in Avengers headquaters.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="wp9068784-the-incredible-hulk-ROAR.jpg" alt="">
+                <div class="carousel-caption">
+                    <h5>Combat</h5>
+                    <p> Scene from my fight with Abomination.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselwithIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselwithIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+</div>
+</body>
+</html>
