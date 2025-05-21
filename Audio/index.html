@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Background Selection</h2>
+    <form id="controls">
+        <label><input type="radio" name="background" value="background1"> Elephant Habitat</label>
+        <label><input type="radio" name="background" value="background2"> Gorilla Habitat</label>
+        <label><input type="radio" name="background" value="background3"> Wolf Habitat</label>
+
+        <h2>Character Movement</h2>
+        <label>X Position: <input type="range" id="xSlider" min="0" max="400"></label>
+        <label>Y Position: <input type="range" id="ySlider" min="0" max="400"></label>
+
+        <h2>Item Visibility</h2>
+        <label><input type="checkbox" id="item1"> Show Item 1</label>
+        <label><input type="checkbox" id="item2"> Show Item 2</label>
+        <label><input type="checkbox" id="item3"> Show Item 3</label>
+
+       <br><br>
+
+        <h2>Sound Effects</h2>
+        <button id="playButton1">Elephant</button>
+        <button id="playButton2">Wolf</button>
+        <button id="playButton3">Gorilla</button>
+
+        <audio id="audioPlayer1" src="sounds/Elephant.mp3"></audio>
+        <audio id="audioPlayer2" src="sounds/wolf.mp3"></audio>
+        <audio id="audioPlayer3" src="sounds/Gorilla.mp3"></audio>
+
+
+    </form>
+
+    <h2>Canvas</h2>
+    <canvas id="sceneCanvas" width="500" height="500"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
