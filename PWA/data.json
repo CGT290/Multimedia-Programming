@@ -8,7 +8,7 @@
       "relatives": ["Leopard", "Jaguar"],
       "best_ability": "Unmatched land speed and explosive acceleration, can reach 69 to 75 mph (104 to 120 km/h) in short bursts",
       "interesting_fact": "Cheetahs cannot roar like other big cats—only purr!",
-      "image": "images/cheetah.jpg",
+      "image": "Images/cheetah.jpg",
       "audio": "audio/cheetah.mp3"
     },
     {
@@ -19,7 +19,7 @@
       "relatives": ["Mammoths", "Asian Elephant"],
       "best_ability": "Incredible memory and strength; can move trees or lift heavy objects with their trunk.",
       "interesting_fact": "Elephants can recognize themselves in a mirror—a sign of self-awareness!",
-      "image": "images/elephant.jpg",
+      "image": "Images/elephant.jpg",
       "audio": "audio/elephant.mp3"
     },
     {
@@ -30,7 +30,7 @@
       "relatives": ["Chimpanzee", "Bonobo"],
       "best_ability": "A silverback gorilla can lift up to 1,796 pounds (815 kg), some score around 70–90 on human IQ tests",
       "interesting_fact": "Gorillas can learn sign language and form emotional connections!",
-      "image": "images/gorilla.jpg",
+      "image": "Images/gorilla.jpg",
       "audio": "audio/gorilla.mp3"
     },
     {
@@ -41,7 +41,7 @@
       "relatives": ["Coyote", "Fox"],
       "best_ability": "A bite force of about 400 psi, can run at speeds of 35 to 40 mph",
       "interesting_fact": "Wolves have distinct howls used to communicate up to 10 miles (16 km) in open terrain",
-      "image": "images/wolf.jpg",
+      "image": "Images/wolf.jpg",
       "audio": "audio/wolf.mp3"
     },
     {
@@ -52,7 +52,7 @@
       "relatives": ["Black Bear", "Polar Bear"],
       "best_ability": "Have over 1,000 psi in a single paw swipe, bite force of 1,160 PSI, they can also run up to 35mph in short bursts ",
       "interesting_fact": "Grizzlies can reach speeds of up to 35 mph despite their massive size!",
-      "image": "images/bear.jpg",
+      "image": "Images/bear.jpg",
       "audio": "audio/grizzly.mp3"
     },
     {
@@ -63,7 +63,7 @@
       "relatives": ["Lion", "Leopard"],
       "best_ability": "Has a bite force of about 1,050 psi and can reach speeds of 35 to 40 mph (56 to 64 km/h) in short bursts",
       "interesting_fact": " tigers have unique stripe patterns, just like human fingerprints!",
-      "image": "images/tiger.jpg",
+      "image": "Images/tiger.jpg",
       "audio": "audio/Tiger.mp3"
     },
     {
@@ -74,7 +74,7 @@
       "relatives": ["Viper", "Cobra"],
       "best_ability": "Silent movement and venomous or constricting attacks. Constriction pressures exceeding 7 psi per square inch—enough to stop a human’s blood flow within seconds",
       "interesting_fact": "Pythons are excellent swimmers and can stay submerged underwater for up to 30 minutes while hunting or avoiding threats.",
-      "image": "images/beigePyton.jpg",
+      "image": "Images/beigePyton.jpg",
       "audio": "audio/tigerPytonHissing.mp3"
     },
 
@@ -86,7 +86,7 @@
       "relatives": ["Tortoise", "Freshwater Turtle"],
       "best_ability": "Loggerhead sea turtles have a bite force of around 900 PSI. Their shell can withstand up to 1k pounds of pressure",
       "interesting_fact": "the oldest sea turtle is said to be 400 years old and is housed in the Guangzhou Aquarium in China, weighing 300 kilograms.",
-      "image": "images/sea_turtle.jpg",
+      "image": "Images/sea_turtle.jpg",
       "audio": "audio/turtle-breathing-sound.mp3"
     },
 
@@ -98,7 +98,7 @@
       "relatives": ["Indian Rhino", "Javan Rhino"],
       "best_ability": "Armor-like skin and powerful charge. The charge can generate over 8,000 newtons of force, comparable to being hit by a small car",
       "interesting_fact": "A rhino's horn is made of keratin—the same material as human fingernails!",
-      "image": "images/rhino.jpg",
+      "image": "Images/rhino.jpg",
       "audio": "audio/rhinoRunning.mp3"
     },
 
@@ -110,7 +110,7 @@
       "relatives": ["Hammerhead Shark", "Tiger Shark"],
       "best_ability": "Bite force is up to 4000 PSI, They can swim at speeds of up to 25 mph (40 km/h) or 35 mph (56 km/h) in bursts",
       "interesting_fact": "Great whites can detect a single drop of blood in 100 liters of water!",
-      "image": "images/great_white_shark.jpg",
+      "image": "Images/great_white_shark.jpg",
       "audio": "audio/great_white.mp3"
     }
   ]
