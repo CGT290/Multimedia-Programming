@@ -75,7 +75,7 @@
       "best_ability": "Silent movement and venomous or constricting attacks. Constriction pressures exceeding 7 psi per square inch—enough to stop a human’s blood flow within seconds",
       "interesting_fact": "Pythons are excellent swimmers and can stay submerged underwater for up to 30 minutes while hunting or avoiding threats.",
       "image": "images/beigePyton.jpg",
-      "audio": "audio/pythonHissing.mp3"
+      "audio": "audio/tigerPytonHissing.mp3"
     },
 
     {
@@ -87,7 +87,7 @@
       "best_ability": "Loggerhead sea turtles have a bite force of around 900 PSI. Their shell can withstand up to 1k pounds of pressure",
       "interesting_fact": "the oldest sea turtle is said to be 400 years old and is housed in the Guangzhou Aquarium in China, weighing 300 kilograms.",
       "image": "images/sea_turtle.jpg",
-      "audio": "audio/turtle_swim.mp3"
+      "audio": "audio/turtle-breathing-sound.mp3"
     },
 
     {
