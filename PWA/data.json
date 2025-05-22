@@ -1,0 +1,117 @@
+{
+  "animals": [
+    {
+      "name": "Cheetah",
+      "category": "Speed",
+      "habitat": "Savannas and Grasslands",
+      "description": "Cheetahs have slender bodies, long legs, and distinctive black tear markings running from their eyes down to their mouths. Their spotted golden coats help them blend into the savanna grasslands. They are the fastest land animals, reaching speeds up to 70 mph and can accelerate from 0 to 60 mph in just 3 seconds.",
+      "relatives": ["Leopard", "Jaguar"],
+      "best_ability": "Unmatched land speed and explosive acceleration, can reach 69 to 75 mph (104 to 120 km/h) in short bursts",
+      "interesting_fact": "Cheetahs cannot roar like other big cats—only purr!",
+      "image": "images/cheetah.jpg",
+      "audio": "audio/cheetah.mp3"
+    },
+    {
+      "name": "Elephant",
+      "category": "Brute & IQ",
+      "habitat": "Forests, Savannas",
+      "description": "Elephants are massive, wrinkled grey animals with long trunks, large ears that help regulate body temperature, and curved tusks. They walk with a gentle, deliberate gait and are known for their complex communication using rumbles and vibrations. They can recognize themselves in mirrors, showing a high level of self-awareness.",
+      "relatives": ["Mammoths", "Asian Elephant"],
+      "best_ability": "Incredible memory and strength; can move trees or lift heavy objects with their trunk.",
+      "interesting_fact": "Elephants can recognize themselves in a mirror—a sign of self-awareness!",
+      "image": "images/elephant.jpg",
+      "audio": "audio/elephant.mp3"
+    },
+    {
+      "name": "Gorilla",
+      "category": "Brute & IQ",
+      "habitat": "Tropical rainforests",
+      "description": "Gorillas are broad-chested, muscular primates with dark fur and expressive faces, moving primarily by knuckle-walking. They live in family groups and exhibit deep emotional connections with one another. They share about 98% of their DNA with humans",
+      "relatives": ["Chimpanzee", "Bonobo"],
+      "best_ability": "A silverback gorilla can lift up to 1,796 pounds (815 kg), some score around 70–90 on human IQ tests",
+      "interesting_fact": "Gorillas can learn sign language and form emotional connections!",
+      "image": "images/gorilla.jpg",
+      "audio": "audio/gorilla.mp3"
+    },
+    {
+      "name": "Wolf",
+      "category": "Agility & IQ",
+      "habitat": "Forests, mountains, tundra",
+      "description": "Wolves have thick fur, bushy tails, and piercing eyes, with a lean, agile body built for endurance. They move in coordinated packs and communicate through howls, body language, and scent marking. A wolf’s howl can be heard up to 10 miles away in open areas.",
+      "relatives": ["Coyote", "Fox"],
+      "best_ability": "A bite force of about 400 psi, can run at speeds of 35 to 40 mph",
+      "interesting_fact": "Wolves have distinct howls used to communicate up to 10 miles (16 km) in open terrain",
+      "image": "images/wolf.jpg",
+      "audio": "audio/wolf.mp3"
+    },
+    {
+      "name": "Grizzly Bear",
+      "category": "Brute & Speed",
+      "habitat": "Forests, mountains, meadows",
+      "description": "Grizzlies are large, brown-furred bears with a distinctive shoulder hump and long claws used for digging. They move with surprising speed and power, often standing on hind legs to survey their surroundings. Despite their bulk, they can run up to 35 mph.",
+      "relatives": ["Black Bear", "Polar Bear"],
+      "best_ability": "Have over 1,000 psi in a single paw swipe, bite force of 1,160 PSI, they can also run up to 35mph in short bursts ",
+      "interesting_fact": "Grizzlies can reach speeds of up to 35 mph despite their massive size!",
+      "image": "images/bear.jpg",
+      "audio": "audio/grizzly.mp3"
+    },
+    {
+      "name": "Tiger",
+      "category": "Speed & Power",
+      "habitat": "Forests, grasslands, mangroves",
+      "description": "ATigers have vivid orange coats with black stripes and white underbellies, making them one of the most iconic big cats. They are solitary and stealthy, using their camouflage to stalk prey in dense forests. Each tiger has a unique stripe pattern, like human fingerprints.",
+      "relatives": ["Lion", "Leopard"],
+      "best_ability": "Has a bite force of about 1,050 psi and can reach speeds of 35 to 40 mph (56 to 64 km/h) in short bursts",
+      "interesting_fact": " tigers have unique stripe patterns, just like human fingerprints!",
+      "image": "images/tiger.jpg",
+      "audio": "audio/Tiger.mp3"
+    },
+    {
+      "name": "Pyton",
+      "category": "Speed & Adaptability",
+      "habitat": "Forests, deserts, swamps, and grasslands",
+      "description": "Pythons are large, muscular snakes with patterned scales and heat-sensing pits near their mouths. They slither silently through trees, grass, or water and subdue prey by constriction. Some can go months without food after consuming a large meal.",
+      "relatives": ["Viper", "Cobra"],
+      "best_ability": "Silent movement and venomous or constricting attacks. Constriction pressures exceeding 7 psi per square inch—enough to stop a human’s blood flow within seconds",
+      "interesting_fact": "Pythons are excellent swimmers and can stay submerged underwater for up to 30 minutes while hunting or avoiding threats.",
+      "image": "images/beigePyton.jpg",
+      "audio": "audio/pythonHissing.mp3"
+    },
+
+    {
+      "name": "Sea Turtle",
+      "category": "Durability",
+      "habitat": "Oceans, coastal waters",
+      "description": "Sea turtles have streamlined, hard shells and flipper-like limbs that allow them to glide effortlessly through the ocean. They move slowly on land but are graceful swimmers in water. Females return to the exact beach they were born on to lay eggs, even decades later",
+      "relatives": ["Tortoise", "Freshwater Turtle"],
+      "best_ability": "Loggerhead sea turtles have a bite force of around 900 PSI. Their shell can withstand up to 1k pounds of pressure",
+      "interesting_fact": "the oldest sea turtle is said to be 400 years old and is housed in the Guangzhou Aquarium in China, weighing 300 kilograms.",
+      "image": "images/sea_turtle.jpg",
+      "audio": "audio/turtle_swim.mp3"
+    },
+
+    {
+      "name": "Rhino",
+      "category": "Brute & Durability",
+      "habitat": "Grasslands, savannas, and forests",
+      "description": "Rhinos are thick-skinned, heavy-set mammals with one or two horns on their snouts and small eyes relative to their massive bodies. They often move with slow, deliberate steps but can charge quickly when threatened.",
+      "relatives": ["Indian Rhino", "Javan Rhino"],
+      "best_ability": "Armor-like skin and powerful charge. The charge can generate over 8,000 newtons of force, comparable to being hit by a small car",
+      "interesting_fact": "A rhino's horn is made of keratin—the same material as human fingernails!",
+      "image": "images/rhino.jpg",
+      "audio": "audio/rhinoRunning.mp3"
+    },
+
+    {
+      "name": "Great White Shark",
+      "category": "Speed & Brute",
+      "habitat": "Oceans, coastal waters",
+      "description": "Great white sharks have torpedo-shaped bodies, rows of razor-sharp teeth, and gray coloring that fades to white underneath. They swim with powerful tail thrusts and often breach the water while hunting.",
+      "relatives": ["Hammerhead Shark", "Tiger Shark"],
+      "best_ability": "Bite force is up to 4000 PSI, They can swim at speeds of up to 25 mph (40 km/h) or 35 mph (56 km/h) in bursts",
+      "interesting_fact": "Great whites can detect a single drop of blood in 100 liters of water!",
+      "image": "images/great_white_shark.jpg",
+      "audio": "audio/great_white.mp3"
+    }
+  ]
+}
